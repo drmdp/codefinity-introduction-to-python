@@ -6,7 +6,7 @@ grocery_inventory = {
 "Apples": (141, "Produce")
 }
 bread_details = grocery_inventory.get("Bread")
-print("Bread:", bread_details)
+print("Details of bread:", bread_details)
 grocery_inventory.update({"Cookies": (143, "Bakery")})
 print("Inventory after adfding Cookies:", grocery_inventory)
 removed_item = grocery_inventory.pop("Eggs")
